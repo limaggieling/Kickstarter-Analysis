@@ -18,18 +18,18 @@ Week 1 for Columbia's DA Bootcamp
 	### Analysis of Outcomes Based on Launch Date
 		Firstly, we extracted the date from the **UNIX timestamps** using the following formula below, then the year from the date using excel's year function: **year(cell)**. 
 
-![Image](/Kickstarter_Analysis/Resources/unix_timestamp_to_excel_date.png
+![unix_timestamp_to_excel_date](/Kickstarter_Analysis/Resources/unix_timestamp_to_excel_date.png
 
 		To answer Louise's first queston of what the theater outcomes were based on the launch date, we created a **pivot chart** from the kickstarter worksheet that was able to filter by parent category (theater) and year, list the months as rows, and show the outcomes in columns. The pivot table showed counts for each month of the number of successes, fails, canceled theater campaigns, and those that were live (still active). We selected only the successes, fails, and canceled campaigns because there was no significance to view live campaigns since it was not applicable to Louise's question.
 		
 		
-![Image2](/Kickstarter_Analysis/Resources/Theater_Outcomes_PivotChart.png)		
+![Theater_Outcomes_PivotChart](/Kickstarter_Analysis/Resources/Theater_Outcomes_PivotChart.png)		
 		Using the pivot chart, we then created a pivot line graph comparing the outcomes of each play campaign to its launch date.
 		
-![Image3](/Kickstarter_Analysis/Resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](/Kickstarter_Analysis/Resources/Theater_Outcomes_vs_Launch.png)
 
 	### Analysis of Outcomes Based on Goals
-		Secondly, we compared the campaign outcomes to the goal fund amounts.
+		Secondly, we compared the campaign outcomes to the goal fund amounts. 
 
 	### Challenges and Difficulties Encountered
 
