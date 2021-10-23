@@ -30,6 +30,7 @@ the counts of each outcome to answer Louise's inquiries.
 ## Analysis and Challenges
 
 **Analysis of Outcomes Based on Launch Date**
+
 Firstly, we extracted the date from the **UNIX timestamps** using the following formula 
 below, then the year from the date using excel's year function: **year(cell)**. 
 
@@ -55,6 +56,7 @@ play campaign to its launch date.
 The first deliverable is then completed
 
 **Analysis of Outcomes Based on Goals**
+
 Secondly, we compared the campaign outcomes to the goal fund amounts. This required us
 to create a visual that displayed the percentage of successful, failed, or canceled plays.
 By using the countifs() function, we were able to count the number of each outcome based 
