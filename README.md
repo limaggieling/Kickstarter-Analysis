@@ -33,7 +33,7 @@ the counts of each outcome to answer Louise's inquiries.
 Firstly, we extracted the date from the **UNIX timestamps** using the following formula 
 below, then the year from the date using excel's year function: **year(cell)**. 
 
-![unix_timestamp_to_excel_date](Resources/unix_timestamp_to_excel_date)
+![unix_timestamp_to_excel_date](Resources/unix_timestamp_to_excel_date.png)
 
 To answer Louise's first queston of what the theater outcomes were based on the launch 
 date, we created a **pivot chart** from the kickstarter worksheet that was able to filter
@@ -44,13 +44,34 @@ successes, fails, and canceled campaigns because there was no significance to vi
 campaigns since it was not applicable to Louise's question.
 		
 ![Theater_Outcomes_PivotChart](Resources/Theater_Outcomes_PivotChart.png)		
-		
+
+Filtering based on the "parent category" for "theater" and sorting the campaign outcomes
+in decending order, we see that successful, failed, and cancel are in the order we want.
 Using the pivot chart, we then created a pivot line graph comparing the outcomes of each
-play campaign to its launch date.
+play campaign to its launch date. 
 
 ![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+The first deliverable is then completed
+
 **Analysis of Outcomes Based on Goals**
-Secondly, we compared the campaign outcomes to the goal fund amounts. 
+Secondly, we compared the campaign outcomes to the goal fund amounts. This required us
+to create a visual that displayed the percentage of successful, failed, or canceled plays.
+By using the countifs() function, we were able to count the number of each outcome based 
+on their goal fund ranges.
+
+![Countif_formula](Resources/Countif_formula.png)
+
+After inputing the function along with its conditions into excel, the resulting data table
+was created.
+
+![Outcomes_Based_on_Goals_Table](Resources/Outcomes_Based_on_Goals_Table.png)
+
+Then, we generated a line graph showing the trend of outcomes compared to goal funds.
+
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
+
+
+
 **Challenges and Difficulties Encountered**
 ## Results
 
